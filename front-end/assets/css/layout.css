@@ -1,0 +1,13 @@
+.body{
+  min-height: 100vh;
+  min-width: 100vw;
+  @apply bg-white dark:bg-dark;
+}
+
+ .dark-mode {
+   @apply text-white bg-dark;
+ }
+
+.light-mode {
+  @apply text-black bg-white;
+}

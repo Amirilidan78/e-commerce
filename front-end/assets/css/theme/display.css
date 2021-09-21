@@ -1,0 +1,6 @@
+.hidden-in-lg {
+  @apply flex lg:hidden ;
+}
+.hidden-in-sm {
+  @apply hidden lg:flex ;
+}

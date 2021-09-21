@@ -1,4 +1,4 @@
-# E-commerce 
+# nustjs expressjs dockerized quick start
 
 
 ### Project structure  

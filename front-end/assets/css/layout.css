@@ -11,3 +11,55 @@
 .light-mode {
   @apply text-black bg-white;
 }
+
+/* ---------------------------------------------------------------- */
+
+/* -------- Header -------- */
+
+.layout-header-container{
+  @apply w-full py-3 border px-5 border-dark bg-blue dark:border-white ;
+}
+
+.layout-header-lg{
+  @apply hidden lg:flex items-center justify-items-center ;
+}
+
+.layout-header-sm{
+  @apply flex lg:hidden items-center ;
+}
+
+/* -------- Header -------- */
+
+/* ---------------------------------------------------------------- */
+
+/* -------- Logo -------- */
+
+.layout-logo-container{
+  @apply justify-self-start p-3 ;
+}
+
+.layout-logo{
+  @apply w-12 h-12 rounded ;
+}
+
+/* -------- Logo -------- */
+
+/* ---------------------------------------------------------------- */
+
+/* -------- Nav  -------- */
+
+.layout-nav-container{
+  @apply justify-self-center flex-1 p-3 ;
+}
+
+/* -------- Nav  -------- */
+
+/* ---------------------------------------------------------------- */
+
+/* -------- Profile  -------- */
+
+.layout-profile-container{
+  @apply justify-self-end p-3 ;
+}
+
+/* -------- Profile  -------- */

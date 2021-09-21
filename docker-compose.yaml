@@ -10,9 +10,9 @@ services:
     container_name: front-end-container
     volumes:
       - ./front-end:/app/front-end
-      - /app/front-end/node_modules # Just dont delete this -_-
+      - /app/front-end/node_modules # Just don`t delete this -_-
     ports: 
-      - 3000:3000
+      - "3000:3000"
 
   back-end:
     restart: unless-stopped
@@ -22,9 +22,9 @@ services:
     container_name: back-end-container
     volumes:
       - ./back-end:/app/back-end
-      - /app/back-end/node_modules # Just dont delete this -_-
+      - /app/back-end/node_modules # Just don`t delete this -_-
     ports: 
-      - 8000:8000
+      - "8000:8000"
 
   webserver:
     build:

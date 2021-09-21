@@ -1,0 +1,71 @@
+.icon > svg g [fill] {
+  transition: fill 0.3s ease;
+}
+/*-----------------------------------------------------------------------*/
+.icon-1 > svg {
+  height: .25rem ;
+  width: .25rem ;
+}
+.icon-2 > svg {
+  height: .5rem ;
+  width: .5rem ;
+}
+.icon-3 > svg {
+  height: .75rem ;
+  width: .75rem ;
+}
+.icon-4 > svg {
+  height: 1rem ;
+  width: 1rem ;
+}
+.icon-5 > svg {
+  height: 1.25rem ;
+  width: 1.25rem ;
+}
+.icon-6 > svg {
+  height: 1.5rem ;
+  width: 1.5rem ;
+}
+.icon-7 > svg {
+  height: 1.75rem ;
+  width: 1.75rem ;
+}
+.icon-8 > svg {
+  height: 2rem ;
+  width: 2rem ;
+}
+.icon-9 > svg {
+  height: 2.25rem ;
+  width: 2.25rem ;
+}
+.icon-10 > svg {
+  height: 2.5rem ;
+  width: 2.5rem ;
+}
+/*-----------------------------------------------------------------------*/
+.icon-transparent > svg g [fill] {
+  fill: transparent;
+}
+.icon-dark > svg g [fill] {
+  fill: #0A071B;
+}
+.icon-black > svg g [fill] {
+  fill: #000;
+}
+.icon-white > svg g [fill] {
+  fill: #fff;
+}
+.icon-success > svg g [fill] {
+  fill: #1BC5BD;
+}
+.icon-info > svg g [fill] {
+  fill: #8950FC;
+}
+.icon-primary > svg g [fill] {
+  fill: #409FFF;
+}
+.icon-danger > svg g [fill] {
+  fill: #F64E60;
+}
+
+

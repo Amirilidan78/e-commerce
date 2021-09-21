@@ -1,3 +1,9 @@
+/* dont delete these files */
+@import "./theme/display.css";
+@import "./theme/icon.css";
+
+
+/* exclude css */
 @import "./layout.css";
 
 @tailwind base;
